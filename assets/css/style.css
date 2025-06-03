@@ -39,3 +39,9 @@ h5 {
 h6 {
     font-size: 1rem;
 }
+
+.navbar-social {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 0.25rem solid #F7941E;
+}
