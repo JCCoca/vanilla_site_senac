@@ -14,6 +14,7 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     color: #030712;
+    background-color: #EFEFEF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -161,4 +162,32 @@ ul.menu-group li a:hover{
 }
 .text-justify {
     text-align: justify;
+}
+
+.card {
+    width: 100%;
+    border-radius: 0.35rem;
+    color: #030712;
+    background-color: #fff;
+}
+.card-img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 0.35rem;
+    border-top-right-radius: 0.35rem;
+}
+.card-body {
+    padding: 20px;
+}
+
+.jumbotron-senac-blue {
+    background-color: #004A8D;
+    color: #fff;
+}
+
+.list-curso {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
