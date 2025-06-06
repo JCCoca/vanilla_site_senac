@@ -144,3 +144,21 @@ ul.menu-group li a{
 ul.menu-group li a:hover{
     color: #F7941E;
 }
+
+.img-banner {
+    width: 100%;
+    height: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
