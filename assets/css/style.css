@@ -208,6 +208,7 @@ ul.menu-group li a:hover{
 .form-input {
     display: block;
     width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #1E2939;
     padding: 0.675rem 0.75rem;
     border: 1px solid #99A1AF;
@@ -217,4 +218,48 @@ ul.menu-group li a:hover{
 .form-input:focus {
     border-color: #004A8D;
     box-shadow: 0 0 10px #004A8D66;
+}
+input[type='file'].form-input::file-selector-button {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    background-color: #004A8D;
+    border: none;
+    padding: 0.675rem 0.75rem;
+    border-top-left-radius: 0.35rem;
+    border-bottom-left-radius: 0.35rem;
+    transition: background;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in;
+}
+input[type='file'].form-input::file-selector-button:hover {
+    color: #fff;
+    background-color: #F7941E;
+}
+input[type='file'].form-input {
+    padding: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1;
+    font-size: 1rem;
+    color:#030712;
+    background-color: #D1D5DC;
+    border: 1px solid #99A1AF;
+    border-radius: 0.35rem;
+    transition: all;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in;
+}
+.btn-senac {
+    color: #fff;
+    background-color: #004A8D;
+    border-color: #004A8D;
+}
+.btn-senac:hover {
+    background-color: #F7941E;
+    border-color: #F7941E;
+    scale: 1.2
 }
