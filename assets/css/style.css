@@ -195,12 +195,26 @@ ul.menu-group li a:hover{
 .form-group {
     display: block;
     width: 100%;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
 }
 .form-group label {
     display: block;
     width: 100%;
     line-height: 1;
-    font-weight: 400;
-    margin-bottom: 0.25rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    color: #1E2939;
+    padding: 0.675rem 0.75rem;
+    border: 1px solid #99A1AF;
+    border-radius: 0.35rem;
+    outline: 0;
+}
+.form-input:focus {
+    border-color: #004A8D;
+    box-shadow: 0 0 10px #004A8D66;
 }
