@@ -191,3 +191,16 @@ ul.menu-group li a:hover{
     align-items: center;
     justify-content: space-between;
 }
+
+.form-group {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.75rem;
+}
+.form-group label {
+    display: block;
+    width: 100%;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+}
