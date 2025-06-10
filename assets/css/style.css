@@ -263,3 +263,11 @@ input[type='file'].form-input {
     border-color: #F7941E;
     scale: 1.2
 }
+
+.footer-senac {
+    display: block;
+    width: 100%;
+    background-color: #004A8D;
+    color: #fff;
+    border-top: 0.25rem solid #F7941E;
+}
